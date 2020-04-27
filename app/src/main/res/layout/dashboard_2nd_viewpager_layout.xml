@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/darker_gray">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/second_viewpager_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Notification"
+            android:textColor="#800000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <View
+            android:id="@+id/second_viewpager_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/second_viewpager_title"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/second_viewpager_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_viewpager_divider"
+            android:layout_margin="10dp"
+            android:text="You have received notification from HR Manager"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_viewpager_body"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="Explore Now"
+            android:textColor="#800000"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView></RelativeLayout>

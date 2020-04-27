@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_nav_bar_home"
+            android:title="My Profile"
+            app:itemIconTint="@color/nav_drawer_ic_color"/>
+        <item
+            android:id="@+id/nav_bank_info"
+            android:icon="@drawable/ic_bank_info"
+            android:title="Bank Information" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_duty_manager"
+            android:icon="@drawable/ic_duty_manager"
+            android:title="Duty Manager" />
+
+        <item android:id="@+id/nav_contact_HR"
+            android:icon="@drawable/ic_contact_hr"
+            android:title="Contact HR"/>
+
+        <item android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report"
+            android:title="Reports"/>
+
+        <item android:id="@+id/nav_job_location"
+            android:icon="@drawable/ic_job_location"
+            android:title="Job Location"/>
+
+        <item android:id="@+id/nav_raise_request"
+            android:icon="@drawable/ic_raise_request"
+            android:title="Raise Request"/>
+    </group>
+</menu>
