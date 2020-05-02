@@ -22,4 +22,31 @@
     <style name="nav_drawer_icon_color" parent="@style/Widget.AppCompat.ActionButton.Overflow" >
         <item name="android:tint">#800000</item>
     </style>
+
+    <!--theme for a basic button-->
+    <style name="basic_button">
+        <item name="android:background">@drawable/button_rounded_corner</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/pure_white</item>
+        <item name="android:fontFamily">@font/rubik_light</item>
+    </style>
+
+    <style name="h3_text_theme">
+        <item name="android:textColor">@color/lighter_dark_blue</item>
+        <item name="android:fontFamily">@font/rubik_light</item>
+        <!--may add text size in the future-->
+    </style>
+
+    <style name="h4_text_theme">
+        <item name="android:textColor">@color/lighter_dark_blue</item>
+        <item name="android:fontFamily">@font/rubik_light</item>
+        <!--may add text size in the future-->
+    </style>
+
+    <style name="nav_drawer_text_theme">
+        <item name="android:textColor">@color/lighter_dark_blue</item>
+        <item name="android:fontFamily">@font/rubik_light</item>
+    </style>
+
 </resources>

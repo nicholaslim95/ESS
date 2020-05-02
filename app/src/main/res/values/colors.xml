@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#07A8FF</color>
+    <color name="colorPrimary">#5a8dee</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="bottom_nav_bar_color">#969696</color>
     <color name="nav_drawer_ic_color">#800000</color>
+
+    <!--primary color swatches-->
+    <color name="pure_white">#FFFFFF</color>
+    <color name="muted_green">#39DA8A</color>
+    <color name="muted_orange">#FDAC41</color>
+    <color name="muted_red">#FF5B5C</color>
+    <color name="light_blue">#00CFDD</color>
+    <color name="bright_blue">#5a8dee</color>
+    <color name="lighter_dark_blue">#475F7B</color>
+    <color name="dark_blue">#364C62</color>
+
+    <!--seperate theme name for navigation drawer as no styling method for now-->
+    <color name="nav_drawer_menu_background_color">#394C62</color>
+    <color name="nav_drawer_menu_text_color">#8494A7</color>
 </resources>

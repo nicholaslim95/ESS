@@ -6,17 +6,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_nav_bar_home"
-            android:title="My Profile"
-            app:itemIconTint="@color/nav_drawer_ic_color"/>
+            android:icon="@drawable/ic_profile"
+            android:title="My Profile"/>
         <item
             android:id="@+id/nav_bank_info"
-            android:icon="@drawable/ic_bank_info"
+            android:icon="@drawable/ic_bank"
             android:title="Bank Information" />
 
         <item
             android:id="@+id/nav_setting"
-            android:icon="@drawable/ic_setting"
+            android:icon="@drawable/ic_settings"
             android:title="Settings" />
 
         <item
@@ -33,7 +32,7 @@
             android:title="Reports"/>
 
         <item android:id="@+id/nav_job_location"
-            android:icon="@drawable/ic_job_location"
+            android:icon="@drawable/ic_location"
             android:title="Job Location"/>
 
         <item android:id="@+id/nav_raise_request"

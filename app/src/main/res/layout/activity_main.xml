@@ -116,12 +116,12 @@
                             </android.support.v7.widget.CardView>
 
                             <TextView
+                                style="@style/h3_text_theme"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Dashboard"
                                 android:textAlignment="center"
-                                android:textColor="#03A9F4"
                                 android:textSize="10sp" />
                         </LinearLayout>
 
@@ -153,10 +153,10 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                style="@style/h3_text_theme"
                                 android:layout_gravity="center"
                                 android:text="Personal"
                                 android:textAlignment="center"
-                                android:textColor="#03A9F4"
                                 android:textSize="10sp" />
                         </LinearLayout>
 
@@ -188,10 +188,10 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                style="@style/h3_text_theme"
                                 android:layout_gravity="center"
                                 android:text="Supervisor"
                                 android:textAlignment="center"
-                                android:textColor="#03A9F4"
                                 android:textSize="10sp" />
                         </LinearLayout>
 
@@ -223,10 +223,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                style="@style/h3_text_theme"
                                 android:lines="2"
                                 android:text="Head of \nDepartment"
                                 android:textAlignment="center"
-                                android:textColor="#03A9F4"
                                 android:textSize="10sp" />
                         </LinearLayout>
 
@@ -258,10 +258,10 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                style="@style/h3_text_theme"
                                 android:layout_gravity="center"
                                 android:text="Misc"
                                 android:textAlignment="center"
-                                android:textColor="#03A9F4"
                                 android:textSize="10sp" />
                         </LinearLayout>
                     </GridLayout>
@@ -285,8 +285,11 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
+        android:layout_gravity=""
         app:headerLayout="@layout/nav_header"
-        app:itemIconTint="#800000"
+        app:itemIconTint="@color/nav_drawer_menu_text_color"
+        app:itemTextColor="@color/nav_drawer_menu_text_color"
+        android:background="@color/nav_drawer_menu_background_color"
+        app:itemTextAppearance="@style/nav_drawer_text_theme"
         app:menu="@menu/drawer_menu" />
 </android.support.v4.widget.DrawerLayout>

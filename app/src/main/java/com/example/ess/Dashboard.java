@@ -32,7 +32,7 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        scrollableMenuBar1 = (HorizontalScrollMenuView) findViewById(R.id.scrollable_menu_1);
+       // scrollableMenuBar1 = (HorizontalScrollMenuView) findViewById(R.id.scrollable_menu_1);
         scrollableMenuBar2 = (HorizontalScrollMenuView) findViewById(R.id.scrollable_menu_2);
 
 
@@ -137,11 +137,11 @@ public class Dashboard extends AppCompatActivity {
 
     private void initScrollableMenu(){
         //first scrollable menu
-        scrollableMenuBar1.addItem("Attendance", R.drawable.ic_home);
-        scrollableMenuBar1.addItem("Payslip", R.drawable.ic_home);
-        scrollableMenuBar1.addItem("Reach HR", R.drawable.ic_reach_hr);
-        scrollableMenuBar1.addItem("Notice board", R.drawable.ic_home);
-        scrollableMenuBar1.addItem("Something", R.drawable.ic_home);
+//        scrollableMenuBar1.addItem("Attendance", R.drawable.ic_home);
+//        scrollableMenuBar1.addItem("Payslip", R.drawable.ic_home);
+//        scrollableMenuBar1.addItem("Reach HR", R.drawable.ic_reach_hr);
+//        scrollableMenuBar1.addItem("Notice board", R.drawable.ic_home);
+//        scrollableMenuBar1.addItem("Something", R.drawable.ic_home);
 
         //second scrollable
         scrollableMenuBar2.addItem("Claims", R.drawable.ic_claims);

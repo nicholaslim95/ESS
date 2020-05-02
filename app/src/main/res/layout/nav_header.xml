@@ -6,6 +6,7 @@
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:padding="16dp"
+    android:backgroundTint="@color/nav_drawer_menu_background_color"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
@@ -27,13 +28,14 @@
         android:paddingTop="8dp"
         android:text="LIM CHE WEI"
         android:textStyle="bold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textColor="@color/nav_drawer_menu_text_color"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="cheewei.lim@portrade.com"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/nav_drawer_menu_text_color"/>
 
     </LinearLayout>
     <ImageView
@@ -41,5 +43,6 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_arrow_right"
         android:layout_alignParentRight="true"
+        android:tint="@color/nav_drawer_menu_text_color"
         android:layout_centerVertical="true"/>
 </RelativeLayout>
